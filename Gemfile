@@ -4,4 +4,4 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 ruby "2.6.5"
 
-gem "jekyll", "~> 4.0"
+gem "jekyll", "3.8.5"
