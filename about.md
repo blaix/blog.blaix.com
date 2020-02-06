@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am Justin Blake. You are cool.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I write about programming here.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I put quotes, links, and short writings about programming on my [tumblr](https://blaix.tumblr.com/).
 
-
-[jekyll-organization]: https://github.com/jekyll
+I post a bunch of nonsense on my [twitter](https://twitter.com/blaix).
