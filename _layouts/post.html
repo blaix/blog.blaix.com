@@ -5,12 +5,10 @@ layout: default
 <article>
   <header>
     <h1>{{ page.title | escape }}</h1>
-    <p>
-      {%- assign date_format = "%b %-d, %Y" -%}
-      <time>
-        {{ page.date | date: date_format }}
-      </time>
-    </p>
+    {%- assign date_format = "%b %-d, %Y" -%}
+    <time>
+      {{ page.date | date: date_format }}
+    </time>
   </header>
   {{ content }}
 </article>
