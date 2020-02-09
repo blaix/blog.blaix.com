@@ -7,7 +7,7 @@ task :build do
   sh "bundle exec jekyll build -q"
   Rake::FileList["_site/**/*.html"].each do |file|
     print "#{file}: "
-    _, err, status = Open3.capture3("tidy", "-qmi", "-access", "1", "--wrap", "0", file)
+    _, err, status = Open3.capture3("tidy", "-qmi", "-access", "3", "--wrap", "0", file)
     if status.success?
       puts "OK!".green
     else
