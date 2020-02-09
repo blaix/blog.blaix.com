@@ -11,3 +11,5 @@ Hosted on [github pages](https://pages.github.com/).
 The build will fail if [html-tidy](http://www.html-tidy.org/) errors or warns.
 
 To just run the build without serving: `bundle exec rake build`.
+
+The site is built to the `_site` directory.
