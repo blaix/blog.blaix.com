@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- feed_meta -%}
-    {%- if jekyll.environment == 'production' and site.google_analytics -%}
-      {%- include google-analytics.html -%}
-    {%- endif -%}
+    <title>{{ page.title }}</title>
   </head>
   <body>
     <main aria-label="Content">
         {{ content }}
     </main>
-    <footer>
-      <a href="{{ "/" | relative_url }}">Home</a>
-      | <a href="{{ 'feed.xml' | relative_url }}">Subscribe</a>
-      | <a href="https://github.com/blaix/blog.blaix.com">Source</a>
-    </footer>
+    <hr>
+    <nav>
+      <ul>
+        <li><a href="{{ "/" | relative_url }}">Home</a></li>
+        <li><a href="{{ 'feed.xml' | relative_url }}">Subscribe</a></li>
+        <li><a href="https://github.com/blaix/blog.blaix.com">Source</a></li>
+      </ul>
+    </nav>
   </body>
 </html>

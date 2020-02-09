@@ -14,6 +14,7 @@ GEM
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
+    colorize (0.8.1)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.5)
@@ -212,6 +213,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.1.1)
+    rake (13.0.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -242,9 +244,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize (~> 0.8.1)
   github-pages
   jekyll-feed (~> 0.6)
-  tzinfo-data
+  rake (~> 13.0)
 
 BUNDLED WITH
    2.1.4
