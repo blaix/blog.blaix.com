@@ -4,9 +4,11 @@ require "rake"
 
 task :default => :build
 task :build do
+  # TODO: rubocop
+
   sh "bundle exec jekyll build -q --strict_front_matter"
 
-  Rake::FileList["_site/**/*.html"].each do |file|
+  Rake::FileList["docs/**/*.html"].each do |file|
     print "#{file}: "
     _, err, status = Open3.capture3("tidy", "-qmi", "-access", "3", "--wrap", "0", file)
     if status.success?
@@ -22,9 +24,12 @@ task :build do
       msg = err.split("error: ")[1]
       abort msg.red
     end
+
+    # TODO: other checks: https://w3c.github.io/developers/tools/
   end
 end
 
 task :serve => :build do
   sh "bundle exec jekyll serve --skip-initial-build"
+  # TODO: watch for changes and rebuild/reserve
 end
