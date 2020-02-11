@@ -30,11 +30,11 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude:
-  - Rakefile
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-# Build to the docs directory to be served by github pages
-destination: docs
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
