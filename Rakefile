@@ -4,7 +4,7 @@ require "rake"
 
 task :default => :build
 task :build do
-  sh "bundle exec jekyll build -q"
+  sh "bundle exec jekyll build -q --strict_front_matter"
 
   Rake::FileList["_site/**/*.html"].each do |file|
     print "#{file}: "
