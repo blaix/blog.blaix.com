@@ -16,7 +16,7 @@ The site is built to the `_site` directory.
 
 ### Deploy:
 
-The site is served from the `gh-pages` pages branch which uses the `_site` dir as a root using the `git worktree` workflow described [here](https://sangsoonam.github.io/2019/02/08/using-git-worktree-to-deploy-github-pages.html).
+The site is served from the `gh-pages` branch which uses the `_site` dir as a root using the `git worktree` workflow described [here](https://sangsoonam.github.io/2019/02/08/using-git-worktree-to-deploy-github-pages.html).
 
 1. Build the site: `bundle exec rake build`
 2. Commit the compiled site:
