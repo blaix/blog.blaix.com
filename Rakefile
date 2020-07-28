@@ -26,5 +26,5 @@ task :build do
 end
 
 task :serve => :build do
-  sh "bundle exec jekyll serve --skip-initial-build"
+  sh "bundle exec jekyll serve --skip-initial-build --host 0.0.0.0"
 end
