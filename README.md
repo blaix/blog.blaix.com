@@ -4,7 +4,7 @@ Hosted on [github pages](https://pages.github.com/).
 
 ### Local dev:
 
-1. Install [bundler](https://bundler.io/), [html-tidy](http://www.html-tidy.org/), and [vnu](https://libraries.io/homebrew/vnu).
+1. Install [bundler](https://bundler.io/), [html-tidy](http://www.html-tidy.org/), and [vnu](https://github.com/validator/validator).
 2. Install dependencies: `bundle`
 3. Build and serve the site: `bundle exec rake serve`
 
